@@ -9,7 +9,7 @@ st.markdown("""
 
 st.markdown("""
 <iframe 
-    src="https://apps.abacus.ai/chatllm/?appId=15e8751540&hideTopBar=2"
+    src="https://apps.abacus.ai/chatllm/?appId=8b66e9b1e&hideTopBar=2"
     width="420"
     height="600"
     style="border: 2px solid #006666; border-radius: 12px;"
