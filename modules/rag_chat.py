@@ -1,11 +1,9 @@
 import streamlit as st
 
 def display_chat_interface():
-    st.subheader("💬 Assistant Intelligent CUS")
-    st.info("Cet assistant répond à vos questions sur les projets, les indicateurs urbains et les activités du Centre for Urban Systems.")
-
+    st.header("🤖 Chat Intelligent")
     user_input = st.text_input("Posez votre question ici :")
-
     if user_input:
-        st.write("🤖 Réponse : Merci pour votre question ! Le moteur d’intelligence CUS l’analysera prochainement.")
+        # Ici, tu peux intégrer ta logique RAG ou une réponse simulée pour l'instant
+        st.markdown(f"**Réponse simulée:** Vous avez demandé : {user_input}")
 
